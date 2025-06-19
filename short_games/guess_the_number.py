@@ -7,6 +7,11 @@ x = random.randint(1,100)
 print('------------------------')
 print("Hello Welcome to this game!")
 print('------------------------')
+print('------------------------')
+print("Rules are Simple: ")
+print("I have choosen a number from 1-100 and you need to guess it.")
+print("Don't worry, there will be hints.")
+print('------------------------')
 print("Heyy Guess the number.")
 
 attempts = 0
@@ -20,7 +25,7 @@ while guess != x:
     elif diff > 5:
         print("Hint: Your Guess is Low." if x > guess else "Hint: Your Guess is High.")
     elif diff > 0:
-        print("Hint: Your are Close!!")
+        print("Hint: You are Close!!")
     else :
         break
 
